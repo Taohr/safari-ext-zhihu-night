@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>zhihu-display-style</title>
+</head>
+<body>
+<script type="text/javascript">
+
+// Register for the validate and command events.
+safari.application.addEventListener("command", performCommand, false);
+safari.application.addEventListener("validate", validateCommand, false);
+
+var cssurl = '';
+var cssfile = safari.extension.baseURI + 'style.css';
+
+function performCommand(event) {
+    if (event.command !== 'zhihu-display-style') {
+      return;
+    }
+    if (cssurl === '') {
+      cssurl = safari.extension.addContentStyleSheetFromURL(cssfile);
+    } else {
+      safari.extension.removeContentStyleSheet(cssurl);
+      cssurl = '';
+    }
+} 
+
+function validateCommand(event) {
+  if (event.command !== "zhihu-display-style") {
+    return;
+  }
+}
+
+</script>
+</body>
+</html>

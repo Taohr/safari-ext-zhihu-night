@@ -1,0 +1,178 @@
+
+
+/* a,  */
+.RichText.ztext, 
+.CommentTopbar-title, 
+.QuestionHeader-title 
+{ color: #ccc !important; } 
+
+/* span:not(a.Button.Button--plain) {
+    color: #ccc !important;
+} */
+.Card.ViewAll>a 
+{ background-color: #555 !important; } 
+.Button.VoteButton.VoteButton--up,
+.Button.VoteButton.VoteButton--up>span,
+.Button.VoteButton.VoteButton--up>span>svg,
+.Button.VoteButton.VoteButton--down,
+.Button.VoteButton.VoteButton--down>span,
+.Button.VoteButton.VoteButton--down>span>svg,
+.Popover.VoteDownReasonMenu>button,
+.Popover.VoteDownReasonMenu>button>span,
+.Popover.VoteDownReasonMenu>button>span>svg
+{ background-color: #555 !important; } 
+.Button.VoteButton.VoteButton--up>span>svg, 
+.Button.VoteButton.VoteButton--down>span>svg 
+{ color: #5a97ec !important; }
+.Card.TopstoryItem.TopstoryItem-isRecommend, 
+.TopstoryTabs.Topstory-tabs 
+{ border-bottom-color: #555 !important; } 
+
+.AppHeader-TabsLink.is-active {
+    color: #aaa !important;
+}
+.TopstoryTabs-link {
+    color: #aaa !important;
+}
+/* 背景色 */
+body {
+    background-color: #555 !important;
+    color: #aaa !important;
+}
+.AppHeader {
+    background-color: #222 !important;
+}
+.Tabs-link.is-active:after {
+    background-color: #79beff !important;
+}
+.Card {
+    background-color: #222 !important;
+}
+.Input-wrapper.Input-wrapper--grey {
+    border-color: #777 !important;
+    background-color: #666 !important;
+}
+.ContentItem-actions {
+    background-color: #222 !important;
+}
+.Topstory-mainColumn .Card:not(.Topstory-tabCard) {
+    border-bottom-color: #555 !important;
+}
+.ProfileSideCreator-analytics {
+    border-top-color: #555 !important;
+}
+.ProfileSideCreator-readCountItem {
+    border-right-color: #555 !important;
+}
+
+.CommentsV2-withPagination {
+    border-color: #555 !important;
+    background-color: #222 !important;
+}
+.Topbar {
+    background-color: #222 !important;
+    border-color: #444 !important;
+}
+.CommentItemV2-meta .UserLink-link{
+    color: #999 !important;
+}
+.ContentItem-title {
+    color: #ccc !important;
+}
+.AuthorInfo-name {
+    color: #ccc !important;
+}
+.CommentsV2-footer {
+    background-color: #222 !important;
+    border-top-color: #555 !important;
+}
+.CommentEditorV2-inputWrap--active {
+    background-color: #555 !important;
+    border-color: #656565 !important;
+}
+.CommentEditorV2-inputWrap {
+    background-color: #444 !important;
+    border-color: #656565 !important;
+}
+.CommentsV2-Packup-Button {
+    background-color: #444 !important;
+}
+
+.GlobalSideBar-navLink:hover {
+    background-color: #444 !important;
+}
+
+.GlobalSideBar-navNumber {
+    background-color: #555 !important;
+}
+
+.Input-wrapper,
+.SimpleSearchBar-input {
+    border-color: #777 !important;
+    background-color: #666 !important;
+}
+
+.CornerButton {
+    background-color: #444 !important;
+}
+.CornerButton:hover {
+    background-color: #666 !important;
+}
+
+.LinkCard-content {
+    background-color: #555 !important;
+}
+.LinkCard-title {
+    color: #ccc !important;
+}
+
+.Popover-content,
+.Popover-arrow:after {
+    background-color: #333 !important;
+    border-color: #444 !important;
+}
+
+.NestComment:not(:last-child):after {
+    border-color: #444 !important;
+}
+.HoverCard,
+.HoverCard-loading {
+    background-color: #333 !important;
+}
+.HoverCard-title,
+.HoverCard-subtitle {
+    color: #ccc !important;
+}
+.HoverCard-titleContainer {
+    border-color: #555 !important;
+}
+
+.NumberBoard-itemName,
+.NumberBoard-itemValue {
+    color: #ccc !important;
+}
+
+.CommentListV2-header-divider,
+.CommentsV2-disabledText,
+.CommentsV2-pagination {
+    background-color: #333 !important;
+    border-color: #555 !important;
+}
+.PaginationButton--current {
+    color: #aaa !important;
+}
+.PaginationButton {
+    color: #ccc !important;
+}
+.NestComment--rootComment:after,
+.NestComment--child:after {
+    border-color: #555 !important;
+}
+
+.Button.ContentItem-more.Button--plain 
+{ color: #5a97ec !important; } 
+.Button.VoteButton.VoteButton--up, 
+.Button.VoteButton.VoteButton--down 
+{ color: #5a97ec !important; } 
+.TopstoryTabs-link.Topstory-tabsLink.is-active 
+{ color: #1af !important; } 
